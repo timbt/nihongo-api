@@ -37,7 +37,7 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
  *              type: string
  */
 app.get('/', (req: Request, res: Response) => {
-  res.send('Hello world!');
+  res.status(200).send('Hello world!');
 });
 
 export default app;
