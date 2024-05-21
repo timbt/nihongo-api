@@ -1,6 +1,7 @@
-name: CI Workflow for nihongo-api
-
-on: [push]
+name: CI
+on:
+  push:
+    branches: [main]
 
 jobs:
   build:
