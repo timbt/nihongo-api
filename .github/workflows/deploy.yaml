@@ -14,5 +14,5 @@ jobs:
       - name: Deploy to DigitalOcean
         uses: digitalocean/app_action@v1.1.6
         with:
-          app_name: nihongo_api
+          app_name: nihongo-api
           token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
